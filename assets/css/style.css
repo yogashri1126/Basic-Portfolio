@@ -10,18 +10,19 @@
 body {
   font-size: 24px;
   line-height: 32px;
-  background-color: #4aaaa5;
   width: 960px;
+  background-color: #4aaaa5;
 }
 
-header {
-  padding: 20px;
+#header {
+  padding: 10px;
   width: 100%;
-  color: #4aaaa5;
-  background: #ffffff;
+  color: #ffffff;
+  background: red;
   font-family: 'Georgia', Times, Times New Roman, serif;
-  font-size: 18px;
+  font-size: 16px;
   width:960px;
+  border-bottom-width: 2px
   border-bottom: #777777;
 
 }
@@ -30,9 +31,21 @@ h2{
   font-family: 'Georgia', Times, Times New Roman, serif;
   font-size:24px;
   color:#4aaaa5;
-  border-bottom-width: 5px;
+  border-width: 10px;
   border-bottom: #777777;
 }
+
+#stack{float:left;
+color: #ffffff;
+background: #4aaaa5;
+font-family: 'Georgia', Times, Times New Roman, serif;}
+
+#links
+{float:right;
+background:#ffffff;
+color:#666666;
+font-size:12pt;
+font-family: 'Georgia', Times, Times New Roman, serif;}
 
 #AboutMe {
   float:left;
@@ -45,23 +58,25 @@ h2{
 
 #Messaging
 {
-  float: left;
+  float:left;
   background:#ffffff;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
   font-size: 20px;
   color:#4aaaa5;
   width: 270px;
-  margin-left: 35px;
+  margin-left: 30px;
 }
 
 #Portfolio {
-margin-top: 30px;
   float:left;
   background:#ffffff;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
   font-size: 20px;
   color:#4aaaa5;
   width: 650px;}
+
+#full
+{width:960px;}
 
 #MyGitHub, #MyLinkedIn,#MyStack{padding:20px;}
 
@@ -95,12 +110,12 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 .container {
+  float:left;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 10px;
     width: 650px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
     font-size:16px;
-    margin-top: 20px;
     color:#777777;}
 
 .wrapper {
@@ -109,13 +124,15 @@ input[type=submit]:hover {
   /* Equal to height of footer */
   /* But also accounting for potential margin-bottom of last child */
   margin-bottom:-50px;
-  color:#777777;
-background:#cccccc;
+  color:#ffffff;
+background:#666666;
 font-size:6pt;
 text-align:center;
 clear:both;
 }
 .footer,
 .push {
-height: 50px;
+height: 50px; 
 }
+
+.push{border-top: 10px solid #4aaaa5;}
